@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - Sairam Leo Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Sairam Leo Club Logo" class="logo-img" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="images/leo.png" alt="Sairam Leo Club Logo" class="logo-img">
+                    <div class="logo-divider"></div>
+                </div>
+                <div class="brand-text">
+                    <h3>Sairam Leo Club</h3>
+                    <p>Leadership • Excellence • Opportunity</p>
+                </div>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="activities.html" class="nav-link active">Activities</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="images/Activity.jpg" alt="Sairam Leo Club Activities Background">
+        </div>
+        <div class="container">
+            <h1>Our Activities</h1>
+            <p>Discover the diverse range of activities and programs we organize</p>
+        </div>
+    </section>
+
+    <!-- Activity Categories -->
+    <section class="activity-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Activities</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+                <button class="filter-btn" data-filter="environment">Environment</button>
+                <button class="filter-btn" data-filter="health">Health</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+
+            <div class="activities-grid" id="activitiesGrid">
+                <!-- Education Activities -->
+                <div class="activity-card" data-category="education">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Tutoring Program">
+                        <div class="activity-overlay">
+                            <div class="activity-badge education">Education</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Free Tutoring Program</h3>
+                        <p>Providing free tutoring and mentorship to underprivileged students in mathematics, science, and English. Our volunteers dedicate their time to help students excel in their studies.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-users"></i> 50+ Students Helped</span>
+                            <span><i class="fas fa-clock"></i> Weekly Sessions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="education">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Scholarship Program">
+                        <div class="activity-overlay">
+                            <div class="activity-badge education">Education</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Scholarship Program</h3>
+                        <p>Annual scholarship program for meritorious students from economically disadvantaged backgrounds to support their higher education dreams.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-graduation-cap"></i> 20 Scholarships</span>
+                            <span><i class="fas fa-calendar"></i> Annual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environment Activities -->
+                <div class="activity-card" data-category="environment">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Tree Plantation">
+                        <div class="activity-overlay">
+                            <div class="activity-badge environment">Environment</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Green Campus Initiative</h3>
+                        <p>Large-scale tree plantation drives across the campus and surrounding areas to promote environmental conservation and combat climate change.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-tree"></i> 500+ Trees Planted</span>
+                            <span><i class="fas fa-calendar"></i> Monthly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="environment">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Waste Management">
+                        <div class="activity-overlay">
+                            <div class="activity-badge environment">Environment</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Waste Management Program</h3>
+                        <p>Comprehensive waste segregation and recycling program to promote sustainable practices and reduce environmental impact.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-recycle"></i> Campus-wide</span>
+                            <span><i class="fas fa-clock"></i> Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Activities -->
+                <div class="activity-card" data-category="health">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Blood Donation">
+                        <div class="activity-overlay">
+                            <div class="activity-badge health">Health</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Blood Donation Camps</h3>
+                        <p>Regular blood donation camps in partnership with local hospitals to address blood shortage and save lives in our community.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-tint"></i> 100+ Units Collected</span>
+                            <span><i class="fas fa-calendar"></i> Quarterly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="health">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Health Checkup">
+                        <div class="activity-overlay">
+                            <div class="activity-badge health">Health</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Free Health Checkups</h3>
+                        <p>Organizing free health checkup camps for the local community with qualified medical professionals and basic health screenings.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-user-md"></i> 200+ People Screened</span>
+                            <span><i class="fas fa-calendar"></i> Bi-annual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community Activities -->
+                <div class="activity-card" data-category="community">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Food Distribution">
+                        <div class="activity-overlay">
+                            <div class="activity-badge community">Community</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Food Distribution Drive</h3>
+                        <p>Regular food distribution programs for homeless and underprivileged families, especially during festivals and difficult times.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-utensils"></i> 500+ Meals Served</span>
+                            <span><i class="fas fa-calendar"></i> Monthly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="community">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Elderly Care">
+                        <div class="activity-overlay">
+                            <div class="activity-badge community">Community</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Elderly Care Program</h3>
+                        <p>Visiting elderly care homes and spending quality time with senior citizens, organizing entertainment programs and providing companionship.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-heart"></i> 3 Care Homes</span>
+                            <span><i class="fas fa-calendar"></i> Weekly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cultural Activities -->
+                <div class="activity-card" data-category="cultural">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Cultural Festival">
+                        <div class="activity-overlay">
+                            <div class="activity-badge cultural">Cultural</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Annual Cultural Festival</h3>
+                        <p>Grand cultural festival celebrating diversity, featuring traditional dances, music performances, art exhibitions, and cultural competitions.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-music"></i> 500+ Participants</span>
+                            <span><i class="fas fa-calendar"></i> Annual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="cultural">
+                    <div class="activity-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Talent Show">
+                        <div class="activity-overlay">
+                            <div class="activity-badge cultural">Cultural</div>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Talent Showcase</h3>
+                        <p>Platform for students to showcase their talents in various fields including singing, dancing, poetry, and other creative arts.</p>
+                        <div class="activity-stats">
+                            <span><i class="fas fa-star"></i> 100+ Performers</span>
+                            <span><i class="fas fa-calendar"></i> Semester</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved -->
+    <section class="get-involved">
+        <div class="container">
+            <div class="involved-content">
+                <h2>Want to Get Involved?</h2>
+                <p>Join us in our activities and make a difference in the community. Every contribution matters!</p>
+                <div class="involved-options">
+                    <div class="involved-option">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>Volunteer</h4>
+                        <p>Participate in our activities and contribute your time and skills</p>
+                    </div>
+                    <div class="involved-option">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Suggest Ideas</h4>
+                        <p>Share your innovative ideas for new activities and programs</p>
+                    </div>
+                    <div class="involved-option">
+                        <i class="fas fa-donate"></i>
+                        <h4>Support</h4>
+                        <p>Support our activities through donations or sponsorships</p>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <span>SLC</span>
+                        </div>
+                        <h3>Sairam Leo Club</h3>
+                    </div>
+                    <p>Empowering young leaders through service, fellowship, and personal development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="contact.html">Join Our Club</a></li>
+                        <li><a href="contact.html">Volunteer</a></li>
+                        <li><a href="contact.html">Donate</a></li>
+                        <li><a href="contact.html">Partner With Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Sairam Engineering College, Chennai</p>
+                        <p><i class="fas fa-envelope"></i> info@sairamleo.edu</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sairam Leo Club. All rights reserved. | Affiliated with Lions Clubs International</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

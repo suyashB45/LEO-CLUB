@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sairam Leo Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Sairam Leo Club Logo" class="logo-img" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="images/leo.png" alt="Sairam Leo Club Logo" class="logo-img">
+                    <div class="logo-divider"></div>
+                </div>
+                <div class="brand-text">
+                    <h3>Sairam Leo Club</h3>
+                    <p>Leadership • Excellence • Opportunity</p>
+                </div>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="activities.html" class="nav-link">Activities</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="images/project.jpg" alt="Sairam Leo Club Projects Background">
+        </div>
+        <div class="container">
+            <h1>Our Projects</h1>
+            <p>Discover our impactful initiatives and ongoing projects</p>
+        </div>
+    </section>
+
+    <!-- Project Categories -->
+    <section class="project-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Projects</button>
+                <button class="filter-btn" data-category="education">Education</button>
+                <button class="filter-btn" data-category="environment">Environment</button>
+                <button class="filter-btn" data-category="health">Health</button>
+                <button class="filter-btn" data-category="community">Community</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="container">
+            <div class="projects-container">
+                <!-- Education Projects -->
+                <div class="project-card" data-category="education">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Free Tutoring Program">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-users"></i> 50+ Students</span>
+                                <span><i class="fas fa-chalkboard-teacher"></i> 25 Tutors</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge education">Education</div>
+                        <h3>Free Tutoring Program</h3>
+                        <p>Providing free tutoring services to underprivileged students in the local community.</p>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                            <span>75% Complete</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> Started: Jan 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Local Community</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Environment Projects -->
+                <div class="project-card" data-category="environment">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Green Campus Initiative">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-tree"></i> 500+ Trees</span>
+                                <span><i class="fas fa-leaf"></i> 2 Acres</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge environment">Environment</div>
+                        <h3>Green Campus Initiative</h3>
+                        <p>Transforming our campus into an eco-friendly space through tree plantation and waste management.</p>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                            <span>60% Complete</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> Started: Mar 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Campus</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Health Projects -->
+                <div class="project-card" data-category="health">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Health Awareness Campaign">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-heartbeat"></i> 1000+ People</span>
+                                <span><i class="fas fa-hospital"></i> 5 Camps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge health">Health</div>
+                        <h3>Health Awareness Campaign</h3>
+                        <p>Organizing health camps and awareness programs for the local community.</p>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                            <span>85% Complete</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> Started: Feb 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Multiple Locations</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Community Projects -->
+                <div class="project-card" data-category="community">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Community Development">
+                        <div class="project-overlay">
+                            <div class="project-stats">
+                                <span><i class="fas fa-hands-helping"></i> 200+ Volunteers</span>
+                                <span><i class="fas fa-home"></i> 10 Villages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge community">Community</div>
+                        <h3>Rural Development Program</h3>
+                        <p>Working towards improving living conditions in rural areas through various initiatives.</p>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 45%"></div>
+                            </div>
+                            <span>45% Complete</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> Started: Apr 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Rural Areas</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Impact -->
+    <section class="project-impact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Impact</h2>
+                <p>Measuring our success through meaningful metrics</p>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="impact-number" data-count="500">0</div>
+                    <div class="impact-label">Students Benefited</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="impact-number" data-count="1000">0</div>
+                    <div class="impact-label">Trees Planted</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="impact-number" data-count="2000">0</div>
+                    <div class="impact-label">People Reached</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="impact-number" data-count="100">0</div>
+                    <div class="impact-label">Volunteer Hours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved -->
+    <section class="get-involved">
+        <div class="container">
+            <div class="involved-content">
+                <h2>Want to Support Our Projects?</h2>
+                <p>Join us in making a difference through various ways of involvement</p>
+                <div class="involved-options">
+                    <div class="involved-option">
+                        <i class="fas fa-user-plus"></i>
+                        <h4>Volunteer</h4>
+                        <p>Join our team of dedicated volunteers</p>
+                    </div>
+                    <div class="involved-option">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h4>Donate</h4>
+                        <p>Support our initiatives financially</p>
+                    </div>
+                    <div class="involved-option">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Partner</h4>
+                        <p>Collaborate with us on projects</p>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Get Involved</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <span>SLC</span>
+                        </div>
+                        <h3>Sairam Leo Club</h3>
+                    </div>
+                    <p>Empowering young leaders through service, fellowship, and personal development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="contact.html">Join Our Club</a></li>
+                        <li><a href="contact.html">Volunteer</a></li>
+                        <li><a href="contact.html">Donate</a></li>
+                        <li><a href="contact.html">Partner With Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Sairam Engineering College, Chennai</p>
+                        <p><i class="fas fa-envelope"></i> info@sairamleo.edu</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sairam Leo Club. All rights reserved. | Affiliated with Lions Clubs International</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
